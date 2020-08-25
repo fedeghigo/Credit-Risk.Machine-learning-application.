@@ -12,7 +12,8 @@ This work aim to, on one side, the backend code develop on Python Notebook, for 
 -Lda
 -Random Forest
 
-on the other side the code for the web application Streamlit, that is deployed on internet with Heroku, 
+on the other side the code for the web application Streamlit, that is deployed on internet with Heroku
+
 web link: https://creditscoring-ml-thesis.herokuapp.com/
 
 the file:
