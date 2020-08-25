@@ -1,1 +1,1 @@
-# Credit_Risk.Machine-learning-application
+# Credit Risk.Machine learning application.
