@@ -18,9 +18,6 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import roc_auc_score
 
 
-from keras.models import Sequential
-from keras.layers import Dense
-
 
 def main():
     st.title("Credit Scoring")
@@ -107,7 +104,7 @@ def main():
    
 
     st.sidebar.subheader("Choose Classifier")
-    classifier = st.sidebar.selectbox("Classifier", ("Random Forest", "Logistic Regression","Linear Discriminant Analysis" ,"Neural Network"))
+    classifier = st.sidebar.selectbox("Classifier", ("Random Forest", "Logistic Regression","Linear Discriminant Analysis" ))
 
     if classifier == 'Random Forest':
         st.sidebar.subheader("Model Hyperparameters")
@@ -191,51 +188,7 @@ def main():
 
 
 
-    if classifier == "Neural Network":
-        st.sidebar.subheader("Model Hyperparameters")
-        
-        activfun1 = st.sidebar.radio("Function of layer 1?", ("sigmoid", "relu", "softmax"), key='activfun1')
-        activfun2 = st.sidebar.radio("Function of layer 1?", ("sigmoid", "relu", "softmax"), key='activfun2')
-        activfun3 = st.sidebar.radio("Function of layer 1?", ("sigmoid", "relu", "softmax"), key='activfun3')
-
-       
-        epochs = st.sidebar.number_input("epochs", 1, 15, step=1, key='epochs')
-        batch_size = st.sidebar.number_input("batch_size", 1, 10, step=1, key='batch_size')
-        #C = st.sidebar.number_input("C (Regularization parameter)", 0.01, 1.0, step=0.01, key='C_LR')
-        #max_iter = st.sidebar.slider("Maximum number of iterations", 100, 500, key='max_iter')
-        #n_components=st.sidebar.number_input("Number of dimension", 1, 8, step=1, key='dim')
-
-        #metrics = st.sidebar.multiselect("What metrics to plot?", ('Confusion Matrix', 'ROC Curve', 'Precision-Recall Curve'))
-
-        if st.sidebar.button("Classify", key='classify'):
-            st.subheader("Neural Network")
-            
-            
-            # load the dataset
-
-            model = Sequential()
-            model.add(Dense(12, input_dim=11, activation=activfun1))
-            model.add(Dense(8, activation=activfun2))
-            model.add(Dense(8, activation=activfun3))
-            model.add(Dense(1, activation='sigmoid'))
-            # compile the keras model
-            model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
-            # fit the keras model on the dataset
-            model.fit(x_train, y_train, epochs=epochs, batch_size=batch_size)
-            # evaluate the keras model
-            y_pred = model.predict(x_test)
-            predictions = model.predict_classes(x_test)
-            accuracy = model.evaluate(x_train, y_train)
-
-
-
-
-
-            
-
-            st.write("Accuracy: ", accuracy)  
-            st.write("Summary: ", classification_report(y_test,predictions))
-            st.write("Auc: ", roc_auc_score(y_test, predictions))
+   
    
     if st.sidebar.checkbox("Show raw data", False):
         st.subheader("Credit Data Set (Classification)")
