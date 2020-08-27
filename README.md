@@ -22,6 +22,9 @@ the file:
 
 are required for allow heroku to deploy from GitHub
 
-
+How to use the web app:
 
 ![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image.png)
+
+
+
