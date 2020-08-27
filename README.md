@@ -46,3 +46,12 @@ In the end:
 ![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image07.png)
 ![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image08.png)
 
+
+
+This project aim to foster transparency and how is possible to do a basic credit scoring and made it available for avoid 
+"black box" to the public and also be aware of the variable used.
+the database is stored at this link : https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./releases/download/credit_scoring.ml/LendingClub.csv 
+since there is problem to find a good database we use LendingClub that use variable that we don't suggest to use to, in order to avoid "no ethical scoring".
+
+By the way the project only aim to show how the algorithm performs on the given data for find the best one
+
