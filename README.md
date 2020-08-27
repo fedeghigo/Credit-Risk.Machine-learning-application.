@@ -2,7 +2,7 @@
 
 
 
-Abstract 
+## Abstract 
 
 This is my case studies for my thesis in Banking and Finance about credit scoring.
 
