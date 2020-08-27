@@ -21,3 +21,7 @@ the file:
 -Requirements
 
 are required for allow heroku to deploy from GitHub
+
+
+
+![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image.png)
