@@ -22,7 +22,7 @@ the file:
 
 are required for allow heroku to deploy from GitHub
 
-### How to use the web app:
+## How to use the web app:
 
 ![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image.png)
 
@@ -47,7 +47,7 @@ are required for allow heroku to deploy from GitHub
 ![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image08.png)
 
 
-### Conclusion:
+## Conclusion:
 This project aim to foster transparency and how is possible to do a basic credit scoring and made it available for avoid 
 "black box" to the public and also be aware of the variable used.
 the database is stored at this link : https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./releases/download/credit_scoring.ml/LendingClub.csv 
