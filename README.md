@@ -6,7 +6,7 @@
 
 This is my case studies for my thesis in Banking and Finance about credit scoring.
 
-This work aim to, on one side, the backend code develop on Python Notebook (code_credit_scoring_np.ipynb), for reason of readability, to find the best Hyperparameter in order to achieve the best forecast for the credit scoring with algorithm we analize during the thesis, in particular:
+This work aim to, on one side, the backend code develop on Python Notebook (code_streamlit_np.ipynb), for reason of readability, to find the best Hyperparameter in order to achieve the best forecast for the credit scoring with algorithm we analize during the thesis, in particular:
 
 -Logistic regression and Penalized logistic regression (ridge and lasso)
 -Lda
@@ -58,3 +58,5 @@ By the way the project only aim to show how the algorithm performs on the given 
 In the end the final result optimized with cross validation of Hyperparameters show this:
 
 ![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image09.png)
+
+stored at this link : https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/code_streamlit_np.ipynb
