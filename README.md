@@ -30,3 +30,9 @@ How to use the web app:
 
 ![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image03.png)
 
+You will have some result as the following:
+![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image04.png)
+
+![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image05.png)
+
+![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image06.png)
