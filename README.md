@@ -55,3 +55,6 @@ since there is problem to find a good database we use LendingClub that use varia
 
 By the way the project only aim to show how the algorithm performs on the given data for find the best one
 
+In the end the final result optimized with cross validation of Hyperparameters show this:
+
+![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image09.png)
