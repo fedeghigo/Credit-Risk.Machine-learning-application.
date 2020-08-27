@@ -57,4 +57,4 @@ By the way the project only aim to show how the algorithm performs on the given 
 
 In the end the final result optimized with cross validation of Hyperparameters show this:
 
-![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image09.png)
+![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image09.ipg)
