@@ -8,10 +8,13 @@ This is my case studies for my thesis in Banking and Finance about credit scorin
 
 This work aim to, on one side, the backend code develop on Python Notebook (code_streamlit_np.ipynb), for reason of readability, to find the best Hyperparameter in order to achieve the best forecast for the credit scoring with algorithm that i analize during the thesis, in particular:
 
-**1)Logistic regression and Penalized logistic regression (ridge and lasso)
-2)Lda
-3)Random Forest
-4)Neural Network**
+**1)Logistic regression and Penalized logistic regression (ridge and lasso)**
+
+**2)Lda**
+
+**3)Random Forest**
+
+**4)Neural Network**
 
 on the other side the code for the web application Streamlit, that is deployed on internet with Heroku, to allow to perform the same analysis without previous knowladge of pythone and coding:
 
