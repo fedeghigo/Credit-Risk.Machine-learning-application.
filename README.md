@@ -3,7 +3,7 @@
 </p>
 <p align="center">
   <h1 align="center">
-   Credit Risk.Machine learning application.
+   Credit Risk Machine learning application
 </h1>
 <h4 align="center">:star: my repo so you can keep updated!</h4> 
 </p>
@@ -16,7 +16,7 @@ This is my case studies for my thesis in Banking and Finance about credit scorin
 This work aim to, on one side, the backend code develop on Python Notebook (code_streamlit_np.ipynb) to find the best Hyperparameter and testing the code.
 on the second there is a part developed in Streamlit for reproduction of testing result.
 
-### algorithm that i analize during the thesis:
+### Algorithm that i analize during the thesis:
 
 **1)Logistic regression and Penalized logistic regression (ridge and lasso)**
 
@@ -26,7 +26,7 @@ on the second there is a part developed in Streamlit for reproduction of testing
 
 **4)Neural Network**
 
-on the other side the code for the web application Streamlit, that is deployed on internet with Heroku, to allow to perform the same analysis without previous knowladge of pythone and coding:
+the web application Streamlit, that is deployed on internet with Heroku, to allow to perform the same analysis without previous knowledge of python and coding:
 
 web link: https://creditscoring-ml-thesis.herokuapp.com/
 
@@ -45,7 +45,6 @@ are required for allow heroku to deploy from GitHub
 ![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image03.png)
 
 **You will have some result as the following:**
-
 
 
 ![alt text](https://github.com/fedeghigo/Credit-Risk.Machine-learning-application./blob/master/image04.png)
