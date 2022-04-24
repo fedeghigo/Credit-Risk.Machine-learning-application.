@@ -1,12 +1,22 @@
-# Credit Risk.Machine learning application.
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fedeghigo/Credit-Risk.Machine-learning-application./master/4459b235d8034836bbf2db266f30baa0__.png" />
+</p>
+<p align="center">
+  <h1 align="center">
+   Credit Risk.Machine learning application.
+</h1>
+<h4 align="center">:star: my repo so you can keep updated!</h4> 
+</p>
 
 
 ## Abstract 
 
 This is my case studies for my thesis in Banking and Finance about credit scoring.
 
-This work aim to, on one side, the backend code develop on Python Notebook (code_streamlit_np.ipynb), for reason of readability, to find the best Hyperparameter in order to achieve the best forecast for the credit scoring with algorithm that i analize during the thesis, in particular:
+This work aim to, on one side, the backend code develop on Python Notebook (code_streamlit_np.ipynb) to find the best Hyperparameter and testing the code.
+on the second there is a part developed in Streamlit for reproduction of testing result.
+
+### algorithm that i analize during the thesis:
 
 **1)Logistic regression and Penalized logistic regression (ridge and lasso)**
 
