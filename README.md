@@ -12,6 +12,7 @@
 ## Abstract 
 
 This is my case studies for my thesis in Banking and Finance about credit scoring.
+I have reviewed and generate V2 versionto work with new requirements.
 
 This work aim to, on one side, the backend code develop on Python Notebook (code_streamlit_np.ipynb) to find the best Hyperparameter and testing the code.
 on the second there is a part developed in Streamlit for reproduction of testing result.
@@ -28,7 +29,7 @@ on the second there is a part developed in Streamlit for reproduction of testing
 
 the web application Streamlit, that is deployed on internet with Heroku, to allow to perform the same analysis without previous knowledge of python and coding:
 
-web link: https://creditscoring-ml-thesis.herokuapp.com/
+web link: https://credit-riskmachine-learning.streamlit.app/
 
 the file:
 -Procfile 
