@@ -212,7 +212,7 @@ def main():
             model.fit(x_train, y_train)
             accuracy = model.score(x_test, y_test)
             y_pred = model.predict(x_test)
-            st.write("Accuracy: ", accuracy.round(2))
+            st.write("Accuracy: ", round(accuracy, 2))
             st.write(
                 "Precision: ",
                 precision_score(y_test, y_pred, labels=class_names, average=None).round(2),
@@ -249,7 +249,7 @@ def main():
             model.fit(x_train, y_train)
             accuracy = model.score(x_test, y_test)
             y_pred = model.predict(x_test)
-            st.write("Accuracy: ", accuracy.round(2))
+            st.write("Accuracy: ",round(accuracy, 2))
             st.write(
                 "Precision: ",
                 precision_score(y_test, y_pred, average="weighted", labels=class_names).round(2),
