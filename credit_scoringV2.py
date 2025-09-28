@@ -212,12 +212,14 @@ def main():
             model.fit(x_train, y_train)
             accuracy = model.score(x_test, y_test)
             y_pred = model.predict(x_test)
+            precision_val = precision_score(y_test, y_pred, labels=class_names)
+            st.write("Precision: ", round(precision_val, 2))
+
+            recall_val = recall_score(y_test, y_pred, labels=class_names)
+            st.write("Recall: ", round(recall_val, 2))
+
             st.write("Accuracy: ", round(accuracy, 2))
-            st.write(
-                "Precision: ",
-                precision_score(y_test, y_pred, labels=class_names, average=None).round(2),
-            )
-            st.write("Recall: ", recall_score(y_test, y_pred, labels=class_names).round(2))
+            
             plot_metrics(metrics, model, x_test, y_test, class_names)
 
     # ----------------------------
@@ -249,14 +251,19 @@ def main():
             model.fit(x_train, y_train)
             accuracy = model.score(x_test, y_test)
             y_pred = model.predict(x_test)
-            st.write("Accuracy: ",round(accuracy, 2))
             st.write(
                 "Precision: ",
-                precision_score(y_test, y_pred, average="weighted", labels=class_names).round(2),
+                round(
+                    precision_score(y_test, y_pred, average="weighted", labels=class_names),
+                    2
+                ),
             )
             st.write(
                 "Recall: ",
-                recall_score(y_test, y_pred, average="weighted", labels=class_names).round(2),
+                round(
+                    recall_score(y_test, y_pred, average="weighted", labels=class_names),
+                    2
+                ),
             )
             plot_metrics(metrics, model, x_test, y_test, class_names)
 
