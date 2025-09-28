@@ -159,7 +159,7 @@ def main():
         max_depth = st.sidebar.number_input(
             "The maximum depth of the tree", 1, 100, step=1, key="max_depth"
         )
-        max_features = st.sidebar.radio("Max Features", ("auto", "sqrt"), key="max_features")
+        max_features = st.sidebar.radio("Max Features", ( "sqrt"), key="max_features")
         bootstrap = st.sidebar.radio(
             "Bootstrap samples when building trees", ("True", "False"), key="bootstrap"
         )
