@@ -204,6 +204,10 @@ def main():
 
         if st.sidebar.button("Classify", key="classify_lr"):
             st.subheader("Logistic Regression Results")
+            if penalty == "l1" and solver not in ("liblinear", "saga"):
+                solver = "liblinear"  # fallback
+            if penalty == "l2" and solver not in ("lbfgs", "newton-cg", "sag", "saga"):
+                solver = "lbfgs"  # fallback
             model = LogisticRegression(C=C, penalty=penalty, max_iter=max_iter, solver=solver)
             model.fit(x_train, y_train)
             accuracy = model.score(x_test, y_test)
@@ -233,8 +237,14 @@ def main():
 
         if st.sidebar.button("Classify", key="classify_lda"):
             st.subheader("Linear Discriminant Analysis Results")
+            max_components = min(x_train.shape[1], len(np.unique(y_train)) - 1)
+            if n_components > max_components:
+                n_components = max_components
+
             model = LinearDiscriminantAnalysis(
-                solver="eigen", shrinkage=C, n_components=n_components
+                solver="eigen",
+                shrinkage=C,
+                n_components=n_components,
             )
             model.fit(x_train, y_train)
             accuracy = model.score(x_test, y_test)
