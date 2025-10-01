@@ -1,0 +1,34 @@
+#temp files
+temp*
+
+#VSCode settings
+.vscode/
+
+# macOS 
+.DS_Store
+
+# specific to some projects
+Kaggle/TMDB/source_data/TMDB_movie_dataset_v11.csv
+.Rproj.user
+Portfolio_Projects/1_bike-share_analysis/source_data
+.*.twbr
+Form_results/source_data/*
+
+#api and keys/token
+GPC_BigQuery_API/keys/
+TG_Releases/keys/
+TG_Releases/App_API/
+TG_Releases/source_data/plaintext/
+TG_Releases/source_data/enc_files/
+TG_Releases/logs
+
+#sessions
+*.session
+*.key
+
+#mp3
+*.mp3
+
+#phonebook contacts
+#add the path to ignore all the phonebook contacts
+phonebook/
